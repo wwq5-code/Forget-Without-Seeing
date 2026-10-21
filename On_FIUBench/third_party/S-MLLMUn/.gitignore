@@ -1,0 +1,58 @@
+# Local agent and editor state
+AGENTS.md
+.agents/
+.codex/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+.conda/
+venv/
+env/
+
+# Logs and runtime output
+*.log
+logs/
+nohup.out
+wandb/
+runs/
+outputs/
+checkpoints/
+eval_result/
+release/
+reference/
+
+# Large model artifacts and generated training products
+model/**
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+*.npz
+*.npy
+
+# Local datasets and generated release artifacts
+data/
+*.parquet
+*.arrow
+*.jsonl
+*.csv
+*.tsv
+
+# OS metadata
+.DS_Store
+Thumbs.db
